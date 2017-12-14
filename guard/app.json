@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/image/image",
+    "pages/game/game",
+    "pages/map/map",
+    "pages/location/location"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "悦你所心",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/login/login",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechatHL.png",
+        "text": "欢迎"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "iconPath": "image/icon_normal.png",
+        "selectedIconPath": "image/icon_pressed.png",
+        "text": "游戏"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "image/icon_normal.png",
+        "selectedIconPath": "image/icon_pressed.png",
+        "text": "地图"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+	},
+  "debug": true
+}

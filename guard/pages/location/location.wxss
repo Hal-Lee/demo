@@ -1,0 +1,8 @@
+#map {
+  padding: 40rpx;
+  width: 375px; 
+  height: 200px;
+}
+.text{
+  background-color: #eee;
+}
